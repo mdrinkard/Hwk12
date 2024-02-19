@@ -1,0 +1,29 @@
+# Module 12 Report
+
+### Abstract
+
+Credit risk poses a classification problem that is inherently imbalanced because healthy loans typically outnumber risky loans. The purpose of this analysis is to determine whether or not this classification problem can be corrected or improved upon using a logistic regression model using resampled data. 
+
+### Materials and Methods
+
+This experiment will be conducted using an excel spreadsheet of historical lending data provided to us by a 3rd party. The data will be first processed using a logistical regression model without any resampling and the results will be analyzed. After this is completed the data will be resampled and then processed using the same model. After the results of each model have been obtained it will be evaluated. 
+
+The metric for success for each model will be accruacy, recall, and precision statistics.
+
+### Results
+
+Method 1 ~ Control
+
+	* Accuracy = 95%
+	* Precision = 92%
+	* recall = 95%
+
+Method 2 ~ Resampling
+
+	* Accuracy = 99%
+	* Precision = 99%
+	* recall = 99%
+
+### Analysis
+
+If we compare the results of each model we can see a clear increase in accuracy, precision, and recall of 4% to 7% percent. This clearly suggests that the resampling method is more reliable for predicting accurate results for training data. However, I would argue that this method is only reliable when predicting true or false results as the resampling requires that all conditions of the dataset have the same weights and are trying to achieve an either or outcome.
